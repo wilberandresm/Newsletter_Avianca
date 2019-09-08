@@ -1,0 +1,388 @@
+
+/* Reset css
+*/
+
+html, body, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    width: 760px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.contenedor{
+    overflow:hidden;
+    position: relative;
+}
+
+.encabezado{
+    overflow: hidden;
+
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+   
+}
+
+header{
+    overflow: hidden;
+    padding: 15px;
+    display: flex;
+    flex-flow: row;
+    text-transform: uppercase;
+    justify-content: space-between;
+    background-color: #F21D2F;
+    height:40px;
+    width: 100%;
+
+}
+
+#logo{
+    width: 170px;
+    height: 40px;
+
+}
+img{
+
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.portada{
+    overflow: hidden;
+    background: url(../img/aleta.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   
+
+}
+.titulo{
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+
+.titulo h1{
+    display: block;
+    margin: 0px auto;
+    width: 340px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    color: #F2F2F2;
+    text-align: center;
+    text-shadow:5px 4px 8px black;
+}
+
+.primertexto p{
+
+    display: block;
+    margin: 0px auto;
+    width: 340px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: normal;
+    color: #F2F2F2;
+    text-align: center;
+    text-shadow:5px 4px 8px black;
+    
+}
+
+.dosbloques{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.dosbloques1{
+    
+    overflow: hidden;
+    background-color: #F21D2F;
+    padding: 10px 0px;
+    margin-right: 60px;
+    margin-left: 90px;
+    width: 200px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+}
+
+.primerbloque{
+    float: left;
+    width: 50px;
+
+}
+
+.segundobloque{
+    float: left;
+}
+
+.texto1{
+
+    float: left;
+}
+
+.texto2{
+    float: left;
+}
+
+
+.dosbloques1 h2{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 70px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+
+
+.desdecop p{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 12px;
+
+}
+.desdecop2 p{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 12px;
+    margin-left: 0px;
+
+}
+
+.trayecto p{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 55px;
+
+}
+
+.precio p{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 60px;
+    margin-left: 68px;
+
+}
+/**segundo bloque**/
+
+.dosbloques2{
+    
+    overflow: hidden;
+    background-color: #F21D2F;
+    padding: 10px 0px;
+    margin-right: 90px;
+    margin-left: 60px;
+    width: 200px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+}
+.dosbloques2 h2{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 70px;
+    padding-right: 40px;
+    padding-left: 19px;
+
+}
+
+.textosegundo{
+
+    float: left;
+    padding-left: 20px;
+}
+.preciousd p{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 60px;
+    margin-left: 90px;
+
+}
+/**
+.primerbloque{
+    float: left;
+    width: 50px;
+
+}
+
+
+.segundobloque{
+    float: left;
+}
+
+.texto1{
+
+    float: left;
+}
+
+.texto2{
+    float: left;
+}
+
+
+.dosbloques2 h2{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 70px;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+
+
+.desdecop p{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 12px;
+
+}
+.desdecop2 p{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 12px;
+    margin-left: 0px;
+
+}
+
+.trayecto p{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 55px;
+
+}
+
+.precio p{
+    
+    color: #F2F2F2;
+    display: block;
+    margin: 0px auto;
+    width: 250px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 60px;
+    margin-left: 68px;
+
+}
+
+**/
+
