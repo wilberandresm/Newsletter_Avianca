@@ -101,6 +101,7 @@ img{
 .titulo{
     padding-top: 200px;
     padding-bottom: 10px;
+    background-size: cover;
 }
 
 .titulo h1{
@@ -289,4 +290,79 @@ img{
     margin-right: 60px;
     margin-left: 90px;
 
+}
+
+/**inicio parte dos**/
+
+.partedos{
+    padding-top: 20px;
+    background: url(../img/mujer.jpg);
+    background-size: cover;
+    padding-bottom: 20px;
+    
+}
+.circulo {
+    overflow: hidden;
+    background-color: #F21D2F;
+    display: block;
+    width: 150px;
+    height: 150px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    float: left
+
+}
+.contenidocirculo{
+    color: #F2F2F2;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.raya{
+    background-color: #F2F2F2;
+    height: 2px;
+    width: 156px;
+    background-size: contain;
+    margin: 0px auto;
+}
+.textocirculo{
+    margin-bottom: 4px;
+}
+.textocirculo p{
+    margin: 0px auto;
+}
+.informacion{
+    color: #F2F2F2;
+    line-height: normal;
+    padding: 10px 0px;
+    width: 266px;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    padding-top: 0px;
+    margin-right: 10px;
+    text-shadow: 0 0 4px black;
+
+}
+.informacion p{
+    margin: 0px;
+}
+#descuento25{
+    font-size: 30px;
+    font-weight: 800;
+}
+#direccion{
+    font-size: 19px;
+    font-weight: bold;
 }
