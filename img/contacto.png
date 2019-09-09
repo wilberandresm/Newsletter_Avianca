@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.8333333,1.33333333 L3.16666667,1.33333333 C2.29583333,1.33333333 1.58333333,1.93333333 1.58333333,2.66666667 L1.58333333,14.6666667 L4.75,12 L15.8333333,12 C16.7041667,12 17.4166667,11.4 17.4166667,10.6666667 L17.4166667,2.66666667 C17.4166667,1.93333333 16.7041667,1.33333333 15.8333333,1.33333333 L15.8333333,1.33333333 Z" id="path-1"></path>
+    </defs>
+    <g id="Colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02.0-004A-TAB" transform="translate(-43.000000, -180.000000)">
+            <g id="Group-17">
+                <g id="Group-13" transform="translate(43.000000, 144.000000)">
+                    <g id="Group">
+                        <g id="Group-3">
+                            <g id="Group-2" transform="translate(0.000000, 32.000000)">
+                                <g id="icon" transform="translate(0.000000, 4.000000)">
+                                    <path d="M32,16 C32,7.16462841 24.8363123,0 16,0 C7.16368768,0 0,7.16462841 0,16 C0,24.8372531 7.16368768,32 16,32 C24.8363123,32 32,24.8372531 32,16 Z" id="Stroke-1" fill="#1B1B1B"></path>
+                                    <g id="Icon/Communication/Messenger" transform="translate(8.000000, 8.000000)">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="Mask" fill="#9A9999" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                        <g id="Color/Interface/White" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                                            <rect x="0" y="0" width="19.047619" height="16"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
